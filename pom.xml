@@ -19,18 +19,11 @@
         <aspectj.version>1.8.10</aspectj.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>mta-artifactory</id>
-            <url>https://mta.jfrog.io/artifactory/framework</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>SeleniumJAVA_TAF</artifactId>
-            <version>1.2.4</version>
+            <groupId>io.github.mohammedtaher95</groupId>
+            <artifactId>AUTOTESTIMATIC-JAVA</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
