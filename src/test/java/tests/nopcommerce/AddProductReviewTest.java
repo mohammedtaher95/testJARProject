@@ -8,6 +8,7 @@ import pages.nopcommerce.LoginPage;
 import pages.nopcommerce.ProductDetailsPage;
 import pages.nopcommerce.SearchPage;
 import pages.nopcommerce.homepage.HomePage;
+import tools.properties.Properties;
 import utilities.UserFormData;
 
 
@@ -22,6 +23,7 @@ public class AddProductReviewTest{
 
     @BeforeClass(description = "Setup Driver")
     public synchronized void setUp(){
+        Properties.web.set().baseURL("http://demo.nopcommerce.com");
         driver = new ThreadLocal<>();
         driver.set(new WebDriver());
     }

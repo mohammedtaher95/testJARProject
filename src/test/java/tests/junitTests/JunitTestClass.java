@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import pages.nopcommerce.homepage.HomePage;
 
+import tools.properties.Properties;
 import utilities.UserFormData;
 
 public class JunitTestClass {
@@ -34,6 +35,7 @@ public class JunitTestClass {
 
     @BeforeAll
     public static void setUp(){
+        Properties.web.set().baseURL("http://demo.nopcommerce.com");
         driver = new ThreadLocal<>();
         driver.set(new WebDriver());
     }

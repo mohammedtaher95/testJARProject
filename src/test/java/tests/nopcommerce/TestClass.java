@@ -34,7 +34,7 @@ public class TestClass{
 
     @BeforeClass(description = "Setup Driver")
     public void setUp(){
-//        Properties.web.set().baseURL("http://demo.nopcommerce.com");
+        Properties.web.set().baseURL("http://demo.nopcommerce.com");
         driver = new ThreadLocal<>();
         driver.set(new WebDriver());
     }
