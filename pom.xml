@@ -30,8 +30,9 @@
         <dependency>
             <groupId>io.github.mohammedtaher95</groupId>
             <artifactId>AUTOTESTIMATIC-JAVA</artifactId>
-            <version>1.0.3</version>
+            <version>1.2.0</version>
         </dependency>
+
     </dependencies>
 
     <build>
